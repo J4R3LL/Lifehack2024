@@ -13,12 +13,27 @@ pip install networkx transformers huggingface_hub requests bs4 Torch==2.2.2 spac
 python -m spacy download en_core_web_sm
 ```
 
+After you are required to go to https://huggingface.co/meta-llama/Meta-Llama-3-8B/tree/main to install all of their files and place then as such:
+Lifehack2024
+|- meta-llama
+|--Meta-Llama-3-8B
+|---all files from [website](https://huggingface.co/meta-llama/Meta-Llama-3-8B/tree/main)
+|-articles.py
+|-model.py
+|-README.md
+
+Then request access to the [model](https://huggingface.co/meta-llama/Meta-Llama-3-8B/tree/main) and generate a token on https://huggingface.co
+
+
 ## Usage
-Running `model.py` will run the LLM and prompt you for you question/input. The model will generate text to answer your question
+##### In file `model.py` replace YOUR_HUGGINGFACE_TOKEN with your huggingface token
+##### Running `model.py` will run the LLM and prompt you for you question/input. The model will generate text to answer your question
 
 ### articles.py
 
-The `articles.py` script is responsible for loading the necessary articles needed to create the knowledge graph. It extracts relevant information from these articles and prepares the data for the knowledge graph generation process.
+CNA website = https://www.channelnewsasia.com/topic/terrorism
+
+The `articles.py` script is responsible for loading the necessary articles from cna needed to create the knowledge graph. It extracts relevant information from these articles and prepares the data for the knowledge graph generation process.
 
 ```bash
 python articles.py

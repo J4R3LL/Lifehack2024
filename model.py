@@ -6,7 +6,9 @@ from huggingface_hub import login
 
 cna_articles = cna.cna_articles()
 nlp = spacy.load("en_core_web_sm")
-login(token="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")
+
+
+login(token="YOUR_HUGGINGFACE_TOKEN")
 
 # model_name = "mistralai/Mistral-7B-v0.3"
 # model = AutoModel.from_pretrained(model_name)
