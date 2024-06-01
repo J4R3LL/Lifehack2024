@@ -15,12 +15,12 @@ python -m spacy download en_core_web_sm
 
 After you are required to go to https://huggingface.co/meta-llama/Meta-Llama-3-8B/tree/main to install all of their files and place then as such:
 Lifehack2024
-|- meta-llama
-|-- Meta-Llama-3-8B
-|--- all files from website
-|- articles.py
-|- model.py
-|- README.md
+###### |- meta-llama
+###### |-- Meta-Llama-3-8B
+###### |--- all files from website
+###### |- articles.py
+###### |- model.py
+###### |- README.md
 
 Then request access to the [model](https://huggingface.co/meta-llama/Meta-Llama-3-8B/tree/main) and generate a token on https://huggingface.co
 
