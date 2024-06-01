@@ -14,7 +14,7 @@ python -m spacy download en_core_web_sm
 ```
 
 After you are required to go to https://huggingface.co/meta-llama/Meta-Llama-3-8B/tree/main to install all of their files and place then as such:
-Lifehack2024
+##### Lifehack2024
 ##### |- meta-llama
 ##### |-- Meta-Llama-3-8B
 ##### |--- all files from website
