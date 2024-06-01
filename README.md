@@ -17,7 +17,7 @@ After you are required to go to https://huggingface.co/meta-llama/Meta-Llama-3-8
 ##### Lifehack2024
 ##### |- meta-llama
 ##### |-- Meta-Llama-3-8B
-##### |--- all files from website
+##### |--- all files from [website](https://huggingface.co/meta-llama/Meta-Llama-3-8B/tree/main)
 ##### |- articles.py
 ##### |- model.py
 ##### |- README.md
